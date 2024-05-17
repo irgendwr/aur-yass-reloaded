@@ -8,6 +8,6 @@ if [[ -f $XDG_CONFIG_HOME/yass-reloaded.conf ]]; then
 fi
 
 # prefer new java version
-export PATH="/usr/lib/jvm/java-21-openjdk/bin/:$PATH"
+export PATH="/usr/lib/jvm/java-22-openjdk/bin/:$PATH"
 
-java --module-path "/usr/lib/jvm/java-21-openjfx/lib" --add-modules "javafx.base,javafx.web,javafx.graphics,javafx.fxml,javafx.media,javafx.swing,javafx.controls" -jar "/usr/share/java/yass-reloaded.jar" "$@" $YASS_RELOADED_USER_FLAGS
+java --module-path "/usr/lib/jvm/java-22-openjfx/lib" --add-modules "javafx.base,javafx.web,javafx.graphics,javafx.fxml,javafx.media,javafx.swing,javafx.controls" -jar "/usr/share/java/yass-reloaded.jar" "$@" $YASS_RELOADED_USER_FLAGS
