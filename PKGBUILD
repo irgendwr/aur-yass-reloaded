@@ -1,22 +1,22 @@
 # Maintainer: Jonas Bögle <aur@iwr.sh>
 
 pkgname=yass-reloaded
-pkgver=2025.2
+pkgver=2025.4
 pkgrel=1
 pkgdesc="Editor for creating, fine-tuning, organizing and printing Ultrastar karaoke songs"
 arch=('i686' 'x86_64')
 url="https://github.com/DoubleDee73/Yass"
 license=('GPL')
-depends=('jdk-openjdk>=23' 'java-openjfx>=23' 'gtk2' 'bash')
+depends=('jdk-openjdk>=24' 'java-openjfx>=24' 'gtk2' 'bash')
 makedepends=('unzip')
 _filename="Yass-Reloaded-${pkgver}.jar"
 source=(
 	"https://github.com/DoubleDee73/Yass/releases/download/${pkgver}/${_filename}"
 	"${pkgname}.desktop"
 	"${pkgname}.sh")
-sha256sums=('75350234e4130ffaf98bd8a6371629f76f39d10a5f7d79a67da30dc333ec7e1e'
+sha256sums=('cde09303437c502e42936d1bba7f484c0516f0446457e46c887d393961c2e119'
             '3302b96b565e374f6de96c7139407bf8ee7b4bc206405f7489ee2cb109a57382'
-            'ff8f862b10b093c964bd572e13504c315ee6089eb1492de000ed2f3377b43f49')
+            '29d407e78db3d722742f2799ccd2b06b1bfee625f1ffc44f190a42214c3b2dca')
 options=(!strip)
 noextract=("${_filename}")
 
