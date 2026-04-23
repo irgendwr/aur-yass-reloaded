@@ -1,6 +1,6 @@
 pkgbase = yass-reloaded
 	pkgdesc = Editor for creating, fine-tuning, organizing and printing Ultrastar karaoke songs
-	pkgver = 2026.3
+	pkgver = 2026.4
 	pkgrel = 1
 	url = https://github.com/DoubleDee73/Yass-Reloaded
 	arch = i686
@@ -13,10 +13,10 @@ pkgbase = yass-reloaded
 	depends = bash
 	noextract = Yass-Reloaded.jar
 	options = !strip
-	source = https://github.com/DoubleDee73/Yass-Reloaded/releases/download/v2026.3/Yass-Reloaded.jar
+	source = https://github.com/DoubleDee73/Yass-Reloaded/releases/download/v2026.4/Yass-Reloaded.jar
 	source = yass-reloaded.desktop
 	source = yass-reloaded.sh
-	sha256sums = c28740f1a26b0e820dcec39747949e8f31235649b4db55470b0a09ce51727aa9
+	sha256sums = 390dee8e9498938be38fb769dccf68bba5ffc8cfba44e786e73b88d2caa5fcc5
 	sha256sums = 3302b96b565e374f6de96c7139407bf8ee7b4bc206405f7489ee2cb109a57382
 	sha256sums = b5111811746c39ccab9b1d65ff4db2456127b38dfeeafcb97d184d2e12ee4ba6
 
